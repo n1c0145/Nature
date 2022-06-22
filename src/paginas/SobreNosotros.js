@@ -1,7 +1,7 @@
 import React from 'react';
 import '../estilos/sobrenosotros.css';
 
-function SobreNostros() {
+function SobreNosotros() {
     return (
 
         <div>
@@ -12,4 +12,4 @@ function SobreNostros() {
 
 };
 
-export default SobreNostros;
+export default SobreNosotros;

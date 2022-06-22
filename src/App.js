@@ -9,7 +9,7 @@ import Contactos from "./paginas/Contactos";
 import Galeria from "./paginas/Galeria";
 import Inicio from "./paginas/Inicio";
 import Servicios from "./paginas/Servicios";
-import SobreNostros from "./paginas/SobreNostros";
+import SobreNosotros from "./paginas/SobreNosotros";
 import Navbar from "./componentes/Navbar";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <Route path='/galeria' element={<Galeria />} />
         <Route path='/datos' element={<Datos />} />
         <Route path='/servicios' element={<Servicios />} />
-        <Route path='/sobrenostros' element={<SobreNostros />} />
+        <Route path='/sobrenostros' element={<SobreNosotros />} />
       </Routes>
 
     </div>
