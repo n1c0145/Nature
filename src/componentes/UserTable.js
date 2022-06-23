@@ -32,7 +32,7 @@ function UserTable(props) {
                                 <td>{user.correo}</td>
                                 <td>{user.direccion}</td>
                                 <td>
-                                    <button>Editar</button>
+                                    <button onClick={()=> props.editRow(user)}>Editar</button>
                                     <button onClick={() => props.deleteUser(user.id)}>Eliminar</button>
                                 </td>
 
