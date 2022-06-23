@@ -1,0 +1,29 @@
+[33mcommit ffd99d53799f10c18a2e2bd3d362442c42ecbdcd[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m, [m[1;31morigin/develop[m[33m)[m
+Author: n1c0145 <nicolas.lozalml@gmail.com>
+Date:   Thu Jun 23 08:45:20 2022 -0500
+
+    CRUD-read finish
+
+[33mcommit 064c27362437e9732e386d54d7e80900dd68d471[m
+Author: n1c0145 <nicolas.lozalml@gmail.com>
+Date:   Wed Jun 22 17:42:03 2022 -0500
+
+    Creating UI Data CRUD
+
+[33mcommit c9a5774986b10509e1045675e290a70744cfefbe[m
+Author: n1c0145 <nicolas.lozalml@gmail.com>
+Date:   Wed Jun 22 14:03:20 2022 -0500
+
+    Configuring routing & Creating directive and style files
+
+[33mcommit 39e318d444841c4548aaecb88a1c57dea0646766[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: n1c0145 <nicolas.lozalml@gmail.com>
+Date:   Wed Jun 22 08:57:30 2022 -0500
+
+    Creating project
+
+[33mcommit 2231e6dcd4da8b99f03d0e17a05878ae4504d528[m
+Author: n1c0145 <nicolas.lozalml@gmail.com>
+Date:   Wed Jun 22 08:52:52 2022 -0500
+
+    Initialize project using Create React App
