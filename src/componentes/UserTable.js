@@ -3,7 +3,7 @@ import React from 'react';
 
 function UserTable(props) {
 
-console.log(props.users);
+    console.log(props.users);
 
     return (
 
@@ -23,22 +23,24 @@ console.log(props.users);
             </thead>
 
             <tbody>
-                {props.users.map(user=>(
-          <tr key={user.id}>
-          <td>{user.nombre}</td>
-          <td>{user.apellido}</td>
-          <td>{user.edad}</td>
-          <td>{user.correo}</td>
-          <td>{user.direccion}</td>
-          <td>
-              <button>Editar</button>
-              <button>Eliminar</button>
-          </td>
+                {
+                    props.users.length > 0 ?
+                        props.users.map(user => (
+                            <tr key={user.id}>
+                                <td>{user.nombre}</td>
+                                <td>{user.apellido}</td>
+                                <td>{user.edad}</td>
+                                <td>{user.correo}</td>
+                                <td>{user.direccion}</td>
+                                <td>
+                                    <button>Editar</button>
+                                    <button>Eliminar</button>
+                                </td>
 
 
-      </tr>
-                ))}
-      
+                            </tr>
+                        )) : (<tr><td colSpan={3}>No users</td></tr>)}
+
             </tbody>
         </table>
     )
