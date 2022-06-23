@@ -1,10 +1,9 @@
-import React from 'react';
-import useState from "react";
+import React,{useState} from 'react';
 import '../estilos/datos.css';
 import Formulario from "../componentes/Formulario.js";
 import Tabla from "../componentes/Tabla.js";
 
-const data = [
+const initialDb = [
 
 {
   id:1,
@@ -33,13 +32,13 @@ const data = [
 
 
 function Datos() {
-  // const[db,setDb]=useState(data)
+   const[db,setDb]=useState(initialDb);
 
   return (
     <div>
   <div>Tabla de datos</div>
   <Formulario />
- <Tabla/>
+ <Tabla data={db}/>
     </div>
   );
 }
