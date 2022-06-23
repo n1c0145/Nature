@@ -3,7 +3,6 @@ import React from 'react';
 
 function UserTable(props) {
 
-    console.log(props.users);
 
     return (
 
