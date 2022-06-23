@@ -44,13 +44,17 @@ setUsers([
 ])
 }
 
+const deleteUser = (id) => {
+    setUsers(users.filter(user => user.id !== id))
+}
+
     return (
         <div className='container'>
             <h1>CRUD HOOKS</h1>
             <div><h2>Add user</h2>
             <AddUserForm addUser={addUser}/></div>
             <div><h2>View User</h2></div>
-            <UserTable users={users}/>
+            <UserTable users={users} deleteUser={deleteUser}/>
         </div>
     );
 }

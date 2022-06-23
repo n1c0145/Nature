@@ -33,7 +33,7 @@ function UserTable(props) {
                                 <td>{user.direccion}</td>
                                 <td>
                                     <button>Editar</button>
-                                    <button>Eliminar</button>
+                                    <button onClick={() => props.deleteUser(user.id)}>Eliminar</button>
                                 </td>
 
 

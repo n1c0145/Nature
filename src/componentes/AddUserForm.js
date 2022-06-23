@@ -9,7 +9,8 @@ function AddUserForm(props) {
       //  console.log(data);
         props.addUser(data)
         //clean
-        e.target.reset();
+        e
+        .target.reset();
     }
 
 
