@@ -1,0 +1,21 @@
+.testimonios{
+    background-color: #f2f0d9;
+     
+   
+}
+
+.testimonios-img-box{
+   width: 60vw;
+  height: 70vh;
+  margin-left: 30%;
+    background-image: url(../assets//img2.png);
+    position: absolute;
+     padding: 1% 20% 0% 40%;   
+}
+
+.testimonios-text-box{
+    background-color: #fffdec;
+    width: 500px;
+    top: 50%;
+    position: relative;
+}

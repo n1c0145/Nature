@@ -17,10 +17,7 @@ function Inicio() {
                     <div className='fw-bold'>Call Us: 123-456-7890</div>
                     <div ><button className='inicio-button mt-4'>Free Register</button></div>
                 </div>
-
             </div>
-
-
         </div>
     )
 
