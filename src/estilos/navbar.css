@@ -1,0 +1,40 @@
+.nav {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+
+}
+
+.nav-brand {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+
+}
+
+img {
+    width: 70%;
+
+}
+
+.nav-button {
+    background-color: #c74900;
+    border: none;
+    padding: 8px 5px;
+    color: white;
+    margin-right: 15%;
+
+}
+
+.text {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.text:hover {
+
+    color: #c74900;
+    font-size: 1.3em;
+    font-weight: 700;
+
+}

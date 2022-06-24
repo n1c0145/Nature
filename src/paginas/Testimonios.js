@@ -1,7 +1,7 @@
 import React from 'react';
-import '../estilos/sobrenosotros.css';
+import '../estilos/testimonios.css';
 
-function SobreNosotros() {
+function Testimonios() {
     return (
 
         <div>
@@ -12,4 +12,4 @@ function SobreNosotros() {
 
 };
 
-export default SobreNosotros;
+export default Testimonios;
