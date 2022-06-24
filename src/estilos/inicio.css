@@ -1,3 +1,47 @@
-.divv{
-    background-color: black;
+.inicio {
+    padding: 0% 0% 0% 19.5%;
+}
+
+.inicio-fondo {
+    position: absolute;
+    width: 73vw;
+    height: 87vh;
+    background-image: url(../assets/fondo1.png);
+}
+
+.inicio-text {
+    background-color: white;
+    position: relative;
+    font-weight: bolder;
+    top: 20%;
+    right: +20%;
+    color: #0d301d;
+    width: 50%;
+}
+
+.inicio-text2 {
+    background-color: white;
+    position: relative;
+    width: 50%;
+    top: 32.3%;
+    left: 50%;
+    color: #0d301d;
+    padding: 3%;
+}
+
+.inicio-title-text {
+    font-size: 3.5em;
+
+}
+
+.inicio-title-text2 {
+    font-size: 1.5em;
+}
+
+.inicio-button{
+    background-color: #c74900;
+    border: none;
+    padding: 8px 5px;
+    color: white;
+    margin-right: 15%;
 }
