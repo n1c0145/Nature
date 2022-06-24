@@ -1,0 +1,13 @@
+
+.servicios{
+    width: 98vw;
+}
+
+.servicios-tittle{
+    color: #0d301d;
+}
+
+.servicios-box{
+   border-radius: 50%;
+   width: 500px;
+}
