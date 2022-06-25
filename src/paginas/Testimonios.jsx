@@ -1,6 +1,6 @@
 import React from 'react';
 import '../estilos/testimonios.css';
-import img2 from "../assets/img2.png";
+
 
 function Testimonios() {
     return (

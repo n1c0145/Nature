@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import UserTable from '../componentes/UserTable.js';
-import AddUserForm from '../componentes/AddUserForm.js';
-import EditUserForm from '../componentes/EditUserForm.js';
+import UserTable from '../componentes/UserTable.jsx';
+import AddUserForm from '../componentes/AddUserForm.jsx';
+import EditUserForm from '../componentes/EditUserForm.jsx';
 import '../estilos/datos.css';
 import { v4 as uuidv4 } from "uuid";
 
