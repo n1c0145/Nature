@@ -1,4 +1,4 @@
-Landing page CRUD SPA React 
+Landing page CRUD SPA React HOOKS
 
 Dependencies installed
     "react-bootstrap": "^2.4.0",
