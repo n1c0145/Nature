@@ -9,21 +9,21 @@ import Contactos from "./paginas/Contactos";
 import Galeria from "./paginas/Galeria";
 import Inicio from "./paginas/Inicio";
 import Servicios from "./paginas/Servicios";
-import SobreNosotros from "./paginas/SobreNosotros";
-import Navbar from "./componentes/Navbar";
+import Testimonios from "./paginas/Testimonios";
+import BarraNavegacion from "./componentes/BarraNavegacion";
 
 function App() {
   return (
 
     <div className='App'>
-      <Navbar />
+      <BarraNavegacion />
       <Routes>
         <Route path='/' element={<Inicio />} />
-        <Route path='/contactos' element={<Contactos />} />
-        <Route path='/galeria' element={<Galeria />} />
-        <Route path='/datos' element={<Datos />} />
         <Route path='/servicios' element={<Servicios />} />
-        <Route path='/sobrenostros' element={<SobreNosotros />} />
+        <Route path='/testimonios' element={<Testimonios />} />
+        <Route path='/galeria' element={<Galeria />} />
+        <Route path='/contactos' element={<Contactos />} />
+        <Route path='/datos' element={<Datos />} />
       </Routes>
 
     </div>
