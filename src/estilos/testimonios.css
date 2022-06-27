@@ -23,3 +23,16 @@
     top: 45%;   
   
 }
+
+@media (max-width:900px) {
+    .testimonios-text-box{
+        padding: 70px 25px 25px 5px;
+        background-color: #fffdec;
+        position: relative;
+        width: 500px; 
+        left: 10%;
+        top: 45%;   
+      
+    }
+}
+

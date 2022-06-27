@@ -23,7 +23,7 @@
     background-color: white;
     position: relative;
     width: 50%;
-    top: 32.3%;
+    top: 14%;
     left: 50%;
     color: #0d301d;
     padding: 3%;
@@ -37,7 +37,16 @@
 .inicio-title-text2 {
     font-size: 1.5em;
 }
-
+@media(max-width:768px) {
+    .inicio-title-text {
+        font-size: 1.8em;
+    
+    }
+    
+    .inicio-title-text2 {
+        font-size: 0.5em;
+    }
+}
 .inicio-button{
     background-color: #c74900;
     border: none;

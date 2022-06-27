@@ -13,7 +13,7 @@ function Contactos() {
 
             <div className='text-start mt-5'>
                 <div className='row'>
-                    <div className='col'>
+                    <div className='col-sm'>
                         <div>
                             <label>Primer Nombre</label>
                         </div>
@@ -21,7 +21,7 @@ function Contactos() {
                             <input type="text" className='contactos-input-container' />
                         </div>
                     </div>
-                    <div className='col'>
+                    <div className='col-sm'>
                         <div>
                             <label>Segundo Nombre</label>
                         </div>
@@ -31,7 +31,7 @@ function Contactos() {
                     </div>
                 </div>
                 <div className='row mt-2'>
-                    <div className='col'>
+                    <div className='col-sm'>
                         <div>
                             <label>Email*</label>
                         </div>
@@ -39,7 +39,7 @@ function Contactos() {
                             <input type="text" className='contactos-input-container' />
                         </div>
                     </div>
-                    <div className='col'>
+                    <div className='col-sm'>
                         <div>
                             <label>Asunto</label>
                         </div>

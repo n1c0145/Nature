@@ -81,7 +81,7 @@ function Datos() {
             <div className='text fs-1 fw-bold'>Datos Usuarios</div>
               
             <div className='row'>
-                <div className='col'>
+                <div className='col-lg'>
                   
                     {
                         editing ? (
@@ -94,7 +94,7 @@ function Datos() {
                                 <h2>Insertar Usuario</h2>
                                 <AddUserForm addUser={addUser} /></div>)}
                 </div>
-                <div className='col'>
+                <div className='col-lg'>
                     <div><h2>Listas Usuarios</h2></div>
                     <UserTable users={users} deleteUser={deleteUser} editRow={editRow} />
                 </div>
