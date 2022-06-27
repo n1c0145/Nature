@@ -1,0 +1,15 @@
+.contactos{
+    background-color: #0d301d;
+    padding: 3% 25%;
+    height: 85.8vh;
+}
+
+.contactos-input-container{
+    width: 105%;
+}
+.contactos-textarea-container{
+    width: 102%;
+}
+.contactos-button{
+    width: 102%;
+}

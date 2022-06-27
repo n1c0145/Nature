@@ -7,25 +7,25 @@ function Servicios() {
         <div className='servicios text-center'>
             <div className='servicios-tittle text-center fs-3 mt-5 fw-bolder'>FORESTRY SERVICES</div>
             <div className='row'>
-                <div className='col servicios-box mt-5'>
+                <div className='col mt-5'>
                     <img src={img1} alt="img1" />
                 </div>
-                <div className='col servicios-box mt-5'>
+                <div className='col mt-5'>
                     <img src={img1} alt="img1" />
                 </div>
-                <div className='col servicios-box mt-5'>
+                <div className='col mt-5'>
                     <img src={img1} alt="img1" />
                 </div>
 
             </div>
             <div className='row'>
-                <div className='col servicios-box mt-5'>
+                <div className='col mt-5'>
                     <img src={img1} alt="img1" />
                 </div>
-                <div className='col servicios-box mt-5'>
+                <div className='col mt-5'>
                     <img src={img1} alt="img1" />
                 </div>
-                <div className='col servicios-box mt-5'>
+                <div className='col mt-5'>
                     <img src={img1} alt="img1" />
                 </div>
 
