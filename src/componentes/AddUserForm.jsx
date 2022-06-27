@@ -5,59 +5,67 @@ function AddUserForm(props) {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
 
-    const onSubmit = (data,e) => {
-      //  console.log(data);
+    const onSubmit = (data, e) => {
+        //  console.log(data);
         props.addUser(data)
         //clean
         e
-        .target.reset();
+            .target.reset();
     }
 
 
     return (
-        <form onSubmit={handleSubmit(onSubmit)}>
-            <label>Nombre</label>
-            <input type="text" name="nombre" 
-            {...register("nombre", {
-                required: {value: true, message: 'Campo Requerido'}
-            })}
+        <div className='text-start px-5'>
 
-             />
-            <div>{errors?.nombre?.message}</div>
-            <label>Apellido</label>
-            <input type="text" name="apellido" 
-            {...register("apellido", {
-                required: {value: true, message: 'Campo Requerido'}
-            })}
+            <form onSubmit={handleSubmit(onSubmit)}>
 
-             />
-            <div>{errors?.apellido?.message}</div>
-            <label>Edad</label>
-            <input type="number" name="edad"
-            {...register("edad", {
-                required: {value: true, message: 'Campo Requerido'}
-            })}
+                <label className='form-label'>Nombre</label>
+                <input className='form-control' type="text" name="nombre"
+                    {...register("nombre", {
+                        required: { value: true, message: 'Campo Requerido' }
+                    })}
 
-             />
-            <div>{errors?.edad?.message}</div>
-            <label>Correo</label>
-            <input type="text" name="correo" 
-            {...register("correo", {
-                required: {value: true, message: 'Campo Requerido'}
-            })}
+                />
+                <div className='class="alert alert-danger'>{errors?.nombre?.message}</div>
+                <label className='form-label'>Apellido</label>
+                <input className='form-control' type="text" name="apellido"
+                    {...register("apellido", {
+                        required: { value: true, message: 'Campo Requerido' }
+                    })}
 
-             />
-                  <div>{errors?.correo?.message}</div>
-            <label>Direccion</label>
-            <input type="text" name="direccion" 
-            {...register("direccion", {
-                required: {value: true, message: 'Campo Requerido'}
-            })}
+                />
+                <div className='class="alert alert-danger'>{errors?.apellido?.message}</div>
+                <label className='form-label'>Edad</label>
+                <input className='form-control' type="number" name="edad"
+                    {...register("edad", {
+                        required: { value: true, message: 'Campo Requerido' }
+                    })}
 
-             />
-                  <div>{errors?.direccion?.message}</div>
-<button>Add new user</button>
-        </form >
+                />
+                <div className='class="alert alert-danger'>{errors?.edad?.message}</div>
+                <label className='form-label'>Correo</label>
+                <input className='form-control' type="text" name="correo"
+                    {...register("correo", {
+                        required: { value: true, message: 'Campo Requerido' }
+                    })}
+
+                />
+                <div className='class="alert alert-danger'>{errors?.correo?.message}</div>
+                <label className='form-label'>Direccion</label>
+                <input className='form-control' type="text" name="direccion"
+                    {...register("direccion", {
+                        required: { value: true, message: 'Campo Requerido' }
+                    })}
+
+                />
+                <div className='class="alert alert-danger'>{errors?.direccion?.message}</div>
+                <div className='text-center'>
+                <button className='btn btn-success mt-3'>Insertar</button>
+                </div>
+                
+            </form >
+        </div>
+
 
     )
 

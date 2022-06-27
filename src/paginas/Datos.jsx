@@ -14,7 +14,7 @@ function Datos() {
             nombre: "Nicolas",
             apellido: "Loza",
             edad: 23,
-            correo: "nicola.loza@gmail.com",
+            correo: "nicolas.loza@gmail.com",
             direccion: "Tumbaco"
         },
         {
@@ -55,7 +55,7 @@ function Datos() {
         id: null,
         nombre: '',
         apellido: '',
-        edad:'',
+        edad: '',
         correo: '',
         direccion: ''
     })
@@ -77,25 +77,28 @@ function Datos() {
     }
 
     return (
-        <div className='container'>
-            <h1>CRUD HOOKS</h1>
-
-            {
-                editing ? (
-                    <div>
-                        <h2>Edit User</h2>
-                        <EditUserForm currentUser={currentUser} updateUser={updateUser}/>
-                    </div>
-
-                ) : (
-                    <div>
-                        <h2>Add user</h2>
-                        <AddUserForm addUser={addUser} /></div>)}
-
-
-
-            <div><h2>View User</h2></div>
-            <UserTable users={users} deleteUser={deleteUser} editRow={editRow} />
+        <div className='datos text-center px-5 py-5'>
+            <div className='text fs-1 fw-bold'>Datos Usuarios</div>
+              
+            <div className='row'>
+                <div className='col'>
+                  
+                    {
+                        editing ? (
+                            <div>
+                                <h2>Editar Usuario</h2>
+                                <EditUserForm currentUser={currentUser} updateUser={updateUser} />
+                            </div>
+                        ) : (
+                            <div>
+                                <h2>Insertar Usuario</h2>
+                                <AddUserForm addUser={addUser} /></div>)}
+                </div>
+                <div className='col'>
+                    <div><h2>Listas Usuarios</h2></div>
+                    <UserTable users={users} deleteUser={deleteUser} editRow={editRow} />
+                </div>
+            </div>
         </div >
     );
 }

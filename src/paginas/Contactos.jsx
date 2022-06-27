@@ -24,39 +24,30 @@ function Contactos() {
                     <div className='col'>
                         <div>
                             <label>Segundo Nombre</label>
-
                         </div>
                         <div>
                             <input type="text" className='contactos-input-container' />
-
                         </div>
                     </div>
-
                 </div>
                 <div className='row mt-2'>
                     <div className='col'>
                         <div>
                             <label>Email*</label>
-
                         </div>
                         <div>
                             <input type="text" className='contactos-input-container' />
-
                         </div>
                     </div>
                     <div className='col'>
                         <div>
                             <label>Asunto</label>
-
                         </div>
                         <div>
                             <input type="text" className='contactos-input-container' />
-
                         </div>
                     </div>
-
                 </div>
-
                 <div className='mt-2'>
                     <label>Mensaje</label>
                     <textarea class="form-control" aria-label="With textarea" className='contactos-textarea-container'></textarea>
@@ -64,12 +55,7 @@ function Contactos() {
                 <div className='mt-3'>
                     <button className='nav-button contactos-button'>Send</button>
                 </div>
-
-
-
             </div>
-
-
         </div>
     )
 

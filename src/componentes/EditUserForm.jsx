@@ -23,49 +23,52 @@ function EditUserForm(props) {
 
 
     return (
-        <form onSubmit={handleSubmit(onSubmit)}>
-            <label>Nombre</label>
-            <input type="text" name="nombre"
+
+        <div className='text-start px-5'>
+
+<form onSubmit={handleSubmit(onSubmit)}>
+            <label className='form-label'>Nombre</label>
+            <input className='form-control' type="text" name="nombre"
                 {...register("nombre", {
                     required: { value: true, message: 'Campo Requerido' }
                 })}
-
             />
-            <div>{errors?.nombre?.message}</div>
-            <label>Apellido</label>
-            <input type="text" name="apellido"
+            <div className='class="alert alert-danger'>{errors?.nombre?.message}</div>
+            <label className='form-label'>Apellido</label>
+            <input className='form-control' type="text" name="apellido"
                 {...register("apellido", {
                     required: { value: true, message: 'Campo Requerido' }
                 })}
-
             />
-            <div>{errors?.apellido?.message}</div>
-            <label>Edad</label>
-            <input type="number" name="edad"
+            <div className='class="alert alert-danger'>{errors?.apellido?.message}</div>
+            <label className='form-label'>Edad</label>
+            <input className='form-control' type="number" name="edad"
                 {...register("edad", {
                     required: { value: true, message: 'Campo Requerido' }
                 })}
-
             />
-            <div>{errors?.edad?.message}</div>
-            <label>Correo</label>
-            <input type="text" name="correo"
+            <div className='class="alert alert-danger'>{errors?.edad?.message}</div>
+            <label className='form-label'>Correo</label>
+            <input className='form-control' type="text" name="correo"
                 {...register("correo", {
                     required: { value: true, message: 'Campo Requerido' }
                 })}
-
             />
-            <div>{errors?.correo?.message}</div>
-            <label>Direccion</label>
-            <input type="text" name="direccion"
+            <div className='class="alert alert-danger'>{errors?.correo?.message}</div>
+            <label className='form-label'>Direccion</label>
+            <input className='form-control' type="text" name="direccion"
                 {...register("direccion", {
                     required: { value: true, message: 'Campo Requerido' }
                 })}
-
             />
-            <div>{errors?.direccion?.message}</div>
-            <button>Edit user</button>
+            <div className='class="alert alert-danger'>{errors?.direccion?.message}</div>
+            <div className='text-center'>
+                <button className='btn btn-success mt-3'>Guardar</button>
+                </div>
         </form >
+
+        </div>
+       
 
     )
 
